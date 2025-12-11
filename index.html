@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header / Banner -->
+    <header>
+        <h1>🍦 Sweet Scoop Ice Cream</h1>
+        <p>Choose your flavor • Add your toppings • Enjoy!</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Ice Cream Menu Section -->
+        <section class="menu-section">
+            <h2>Ice Cream Menu</h2>
+
+            <div class="menu-grid">
+
+                <!-- Original Flavors -->
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\perlyn\vanilla.jpg" alt="Vanilla">
+                    <h3>Vanilla</h3>
+                    <p>Classic • Smooth • Sweet</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\perlyn\chocolate.jpg" alt="Chocolate">
+                    <h3>Chocolate</h3>
+                    <p>Rich • Creamy • Delicious</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\perlyn\strawberry.jpg" alt="Strawberry">
+                    <h3>Strawberry</h3>
+                    <p>Fresh • Fruity • Pink</p>
+                </div>
+
+                <!-- Added Flavors -->
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_E3BB1E4A-66BA-4E57-9C02-122277BDE11C.jpeg">
+                    <h3>Mango</h3>
+                    <p>Sweet • Tropical • Juicy</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_62FB9E08-9284-4237-9CBD-82E628CA88FC.jpeg">
+                    <h3>Cookies & Cream</h3>
+                    <p>Creamy • Crunchy • Chocolate Bits</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_A69C1F53-FFAD-47E5-94C2-9D678B6B80AF.jpeg">
+                    <h3>Ube</h3>
+                    <p>Purple Yam • Sweet • Unique</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_59E73DF1-F3B8-46ED-8D21-6F61F7E18EC0.jpeg">
+                    <h3>Matcha</h3>
+                    <p>Green Tea • Earthy • Smooth</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_E1BC9FC1-AC48-433E-9173-124B93881EDC.jpeg">
+                    <h3>Mint Chocolate Chip</h3>
+                    <p>Cool • Refreshing • Choco Chips</p>
+                </div>
+
+                <div class="menu-card">
+                    <img src="c:\Users\Admin\Desktop\Messenger_creation_353C7806-989A-4B44-9548-9E66921AF050.jpeg">
+                    <h3>Coffee</h3>
+                    <p>Bold • Aromatic • Creamy</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Order Form Section -->
+        <section class="order-section">
+            <h2>Place Your Order</h2>
+
+            <form>
+
+                <!-- Flavor Select -->
+                <label>Choose Flavor:</label>
+                <select>
+                    <option>Vanilla</option>
+                    <option>Chocolate</option>
+                    <option>Strawberry</option>
+                    <option>Mango</option>
+                    <option>Cookies & Cream</option>
+                    <option>Ube</option>
+                    <option>Matcha</option>
+                    <option>Mint Chocolate Chip</option>
+                    <option>Coffee</option>
+                </select>
+
+                <!-- Cone Type -->
+                <label>Choose Cone Type:</label>
+                <select>
+                    <option>Waffle Cone</option>
+                    <option>Sugar Cone</option>
+                    <option>Cup</option>
+                </select>
+
+                <!-- Toppings -->
+                <label>Add Toppings:</label>
+                <div class="toppings">
+                    <input type="checkbox"> Sprinkles<br>
+                    <input type="checkbox"> Chocolate Chips<br>
+                    <input type="checkbox"> Marshmallows<br>
+                    <input type="checkbox"> Nuts<br>
+                </div>
+
+                <!-- Customer Info -->
+                <label>Your Name:</label>
+                <input type="text" placeholder="Enter your name">
+
+                <label>Email Address:</label>
+                <input type="email" placeholder="Enter your email">
+
+                <label>Contact Number:</label>
+                <input type="tel" placeholder="09XX-XXX-XXXX">
+
+                <label>Quantity:</label>
+                <input type="number" min="1" max="10" placeholder="1">
+
+                <!-- Buttons -->
+                <button type="button" class="add-cart-btn">Add to Cart</button>
+                <button type="button" class="checkout-btn">Check Out</button>
+
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Sweet Scoop Ice Cream. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
